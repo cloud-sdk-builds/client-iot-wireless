@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-iot-wireless`](https://www.npmjs.com/package/@aws-sdk/client-iot-wireless/v/3.549.0).
+[`@aws-sdk/client-iot-wireless`](https://www.npmjs.com/package/@aws-sdk/client-iot-wireless/v/3.552.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iot-wireless@3.549.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iot-wireless@3.552.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-i9U0qrt+yB+CHBQRDS4yun22BbE5gzXr3ECDt6bQc3rnTkiKQ3vVqXnE/gW4ecE2
+sha384-cZ1I2vG7cCx2N3JQbpbYRnPofeYt8RENOwvlfWwxcaO+Ja3mRIxxqSlgGOFLjudC
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-iot-wireless": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iot-wireless@3.549.0/index.min.mjs"
+            "@aws-sdk/client-iot-wireless": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iot-wireless@3.552.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iot-wireless@3.549.0/index.min.mjs": "sha384-i9U0qrt+yB+CHBQRDS4yun22BbE5gzXr3ECDt6bQc3rnTkiKQ3vVqXnE/gW4ecE2"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iot-wireless@3.552.0/index.min.mjs": "sha384-cZ1I2vG7cCx2N3JQbpbYRnPofeYt8RENOwvlfWwxcaO+Ja3mRIxxqSlgGOFLjudC"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-iot-wireless": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iot-wireless@3.549.0/index.min.mjs"
+                        "@aws-sdk/client-iot-wireless": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iot-wireless@3.552.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iot-wireless@3.549.0/index.min.mjs": "sha384-i9U0qrt+yB+CHBQRDS4yun22BbE5gzXr3ECDt6bQc3rnTkiKQ3vVqXnE/gW4ecE2"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iot-wireless@3.552.0/index.min.mjs": "sha384-cZ1I2vG7cCx2N3JQbpbYRnPofeYt8RENOwvlfWwxcaO+Ja3mRIxxqSlgGOFLjudC"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.549.0`)
+* Always pin to a specific version (`@3.552.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-iot-wireless/blob/refs/tags/3.549.0/LICENSE
+https://github.com/cloud-sdk-builds/client-iot-wireless/blob/refs/tags/3.552.0/LICENSE
 ```
 
 ---
